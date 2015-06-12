@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA634B0F1B2B0E2A00BA9B05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA634B0D1B2B0E2A00BA9B05 /* Main.storyboard */; };
+		DAC57E831B2A08D8004EA9CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC57E821B2A08D8004EA9CC /* AppDelegate.swift */; };
+		DAC57E851B2A08D8004EA9CC /* NutriVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC57E841B2A08D8004EA9CC /* NutriVC.swift */; };
+		DAC57E8A1B2A08D8004EA9CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC57E891B2A08D8004EA9CC /* Images.xcassets */; };
+		DAC57E8D1B2A08D8004EA9CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC57E8B1B2A08D8004EA9CC /* LaunchScreen.xib */; };
+		DAC57E991B2A08D8004EA9CC /* NutriWeekAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC57E981B2A08D8004EA9CC /* NutriWeekAppTests.swift */; };
+		DAC57EA31B2A0FD1004EA9CC /* CelulaDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC57EA21B2A0FD1004EA9CC /* CelulaDS.swift */; };
+		DAC57EA51B2AFA1B004EA9CC /* AddItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC57EA41B2AFA1B004EA9CC /* AddItemVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAC57E931B2A08D8004EA9CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAC57E751B2A08D8004EA9CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAC57E7C1B2A08D8004EA9CC;
+			remoteInfo = NutriWeekApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA634B0E1B2B0E2A00BA9B05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAC57E7D1B2A08D8004EA9CC /* NutriWeekApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriWeekApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC57E811B2A08D8004EA9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC57E821B2A08D8004EA9CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAC57E841B2A08D8004EA9CC /* NutriVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriVC.swift; sourceTree = "<group>"; };
+		DAC57E891B2A08D8004EA9CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DAC57E8C1B2A08D8004EA9CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DAC57E921B2A08D8004EA9CC /* NutriWeekAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutriWeekAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC57E971B2A08D8004EA9CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC57E981B2A08D8004EA9CC /* NutriWeekAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriWeekAppTests.swift; sourceTree = "<group>"; };
+		DAC57EA21B2A0FD1004EA9CC /* CelulaDS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CelulaDS.swift; path = ../CelulaDS.swift; sourceTree = "<group>"; };
+		DAC57EA41B2AFA1B004EA9CC /* AddItemVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddItemVC.swift; path = ../AddItemVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAC57E7A1B2A08D8004EA9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC57E8F1B2A08D8004EA9CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAC57E741B2A08D8004EA9CC = {
+			isa = PBXGroup;
+			children = (
+				DAC57E7F1B2A08D8004EA9CC /* NutriWeekApp */,
+				DAC57E951B2A08D8004EA9CC /* NutriWeekAppTests */,
+				DAC57E7E1B2A08D8004EA9CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAC57E7E1B2A08D8004EA9CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAC57E7D1B2A08D8004EA9CC /* NutriWeekApp.app */,
+				DAC57E921B2A08D8004EA9CC /* NutriWeekAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAC57E7F1B2A08D8004EA9CC /* NutriWeekApp */ = {
+			isa = PBXGroup;
+			children = (
+				DA634B0D1B2B0E2A00BA9B05 /* Main.storyboard */,
+				DAC57E821B2A08D8004EA9CC /* AppDelegate.swift */,
+				DAC57E841B2A08D8004EA9CC /* NutriVC.swift */,
+				DAC57EA41B2AFA1B004EA9CC /* AddItemVC.swift */,
+				DAC57EA21B2A0FD1004EA9CC /* CelulaDS.swift */,
+				DAC57E891B2A08D8004EA9CC /* Images.xcassets */,
+				DAC57E8B1B2A08D8004EA9CC /* LaunchScreen.xib */,
+				DAC57E801B2A08D8004EA9CC /* Supporting Files */,
+			);
+			path = NutriWeekApp;
+			sourceTree = "<group>";
+		};
+		DAC57E801B2A08D8004EA9CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAC57E811B2A08D8004EA9CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAC57E951B2A08D8004EA9CC /* NutriWeekAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAC57E981B2A08D8004EA9CC /* NutriWeekAppTests.swift */,
+				DAC57E961B2A08D8004EA9CC /* Supporting Files */,
+			);
+			path = NutriWeekAppTests;
+			sourceTree = "<group>";
+		};
+		DAC57E961B2A08D8004EA9CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAC57E971B2A08D8004EA9CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAC57E7C1B2A08D8004EA9CC /* NutriWeekApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC57E9C1B2A08D8004EA9CC /* Build configuration list for PBXNativeTarget "NutriWeekApp" */;
+			buildPhases = (
+				DAC57E791B2A08D8004EA9CC /* Sources */,
+				DAC57E7A1B2A08D8004EA9CC /* Frameworks */,
+				DAC57E7B1B2A08D8004EA9CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NutriWeekApp;
+			productName = NutriWeekApp;
+			productReference = DAC57E7D1B2A08D8004EA9CC /* NutriWeekApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAC57E911B2A08D8004EA9CC /* NutriWeekAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC57E9F1B2A08D8004EA9CC /* Build configuration list for PBXNativeTarget "NutriWeekAppTests" */;
+			buildPhases = (
+				DAC57E8E1B2A08D8004EA9CC /* Sources */,
+				DAC57E8F1B2A08D8004EA9CC /* Frameworks */,
+				DAC57E901B2A08D8004EA9CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAC57E941B2A08D8004EA9CC /* PBXTargetDependency */,
+			);
+			name = NutriWeekAppTests;
+			productName = NutriWeekAppTests;
+			productReference = DAC57E921B2A08D8004EA9CC /* NutriWeekAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAC57E751B2A08D8004EA9CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Gabarron;
+				TargetAttributes = {
+					DAC57E7C1B2A08D8004EA9CC = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					DAC57E911B2A08D8004EA9CC = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = DAC57E7C1B2A08D8004EA9CC;
+					};
+				};
+			};
+			buildConfigurationList = DAC57E781B2A08D8004EA9CC /* Build configuration list for PBXProject "NutriWeekApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAC57E741B2A08D8004EA9CC;
+			productRefGroup = DAC57E7E1B2A08D8004EA9CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAC57E7C1B2A08D8004EA9CC /* NutriWeekApp */,
+				DAC57E911B2A08D8004EA9CC /* NutriWeekAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAC57E7B1B2A08D8004EA9CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA634B0F1B2B0E2A00BA9B05 /* Main.storyboard in Resources */,
+				DAC57E8D1B2A08D8004EA9CC /* LaunchScreen.xib in Resources */,
+				DAC57E8A1B2A08D8004EA9CC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC57E901B2A08D8004EA9CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAC57E791B2A08D8004EA9CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC57E851B2A08D8004EA9CC /* NutriVC.swift in Sources */,
+				DAC57EA31B2A0FD1004EA9CC /* CelulaDS.swift in Sources */,
+				DAC57E831B2A08D8004EA9CC /* AppDelegate.swift in Sources */,
+				DAC57EA51B2AFA1B004EA9CC /* AddItemVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAC57E8E1B2A08D8004EA9CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC57E991B2A08D8004EA9CC /* NutriWeekAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAC57E941B2A08D8004EA9CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAC57E7C1B2A08D8004EA9CC /* NutriWeekApp */;
+			targetProxy = DAC57E931B2A08D8004EA9CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA634B0D1B2B0E2A00BA9B05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA634B0E1B2B0E2A00BA9B05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAC57E8B1B2A08D8004EA9CC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAC57E8C1B2A08D8004EA9CC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAC57E9A1B2A08D8004EA9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAC57E9B1B2A08D8004EA9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAC57E9D1B2A08D8004EA9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NutriWeekApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAC57E9E1B2A08D8004EA9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NutriWeekApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAC57EA01B2A08D8004EA9CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NutriWeekAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutriWeekApp.app/NutriWeekApp";
+			};
+			name = Debug;
+		};
+		DAC57EA11B2A08D8004EA9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NutriWeekAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NutriWeekApp.app/NutriWeekApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAC57E781B2A08D8004EA9CC /* Build configuration list for PBXProject "NutriWeekApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC57E9A1B2A08D8004EA9CC /* Debug */,
+				DAC57E9B1B2A08D8004EA9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC57E9C1B2A08D8004EA9CC /* Build configuration list for PBXNativeTarget "NutriWeekApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC57E9D1B2A08D8004EA9CC /* Debug */,
+				DAC57E9E1B2A08D8004EA9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC57E9F1B2A08D8004EA9CC /* Build configuration list for PBXNativeTarget "NutriWeekAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAC57EA01B2A08D8004EA9CC /* Debug */,
+				DAC57EA11B2A08D8004EA9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAC57E751B2A08D8004EA9CC /* Project object */;
+}
