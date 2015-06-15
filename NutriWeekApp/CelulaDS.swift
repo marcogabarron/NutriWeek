@@ -2,6 +2,8 @@
 import UIKit
 
 class CelulaDS: UITableViewCell {
+
+    @IBOutlet weak var labelCell: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

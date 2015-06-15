@@ -6,7 +6,7 @@ class AddItemVC: UIViewController{
     
     var  carros: NSString = ""
     var addItem: [String] = []
-    var addn = NutriVC()
+    
     @IBOutlet weak var addItemTxtField: UITextField!
     
     @IBAction func insertButton(sender: UIButton) {
@@ -15,20 +15,14 @@ class AddItemVC: UIViewController{
         addItem.append(carros as String)
         addItemTxtField.text = ""
         println(addItem)
-        addn.itensCardapio = addItem
-        println(addn.itensCardapio)
+        
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        var destVC: NutriVC = segue.destinationViewController as! NutriVC
+        destVC.itensCardapio = addItem
     
-    //pao de queijo na dieta
-//    @IBAction func backButton(sender: UIButton) {
-//    
-//        self.dismissViewControllerAnimated(true, completion: nil)
-//    
-//  }
-    
-    
-    
-    
+    }
     
 }
